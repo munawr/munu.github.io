@@ -15,7 +15,7 @@ Its my portfolio website for developers developed using [Jaspr](https://docs.pag
 
 🌐 Website: https://devmunawar.github.io/devmunawar-jaspr
 
-💻 Old Flutter App: https://mhmzdev.github.io/devfolio](https://drive.google.com/drive/u/0/folders/1PULGhvqrf1Yi7qFuQwTpz3snbyAJGNMl
+💻 Old Flutter App: https://drive.google.com/drive/u/0/folders/1PULGhvqrf1Yi7qFuQwTpz3snbyAJGNMl
 
 
 #### Munawar Thottiyil
