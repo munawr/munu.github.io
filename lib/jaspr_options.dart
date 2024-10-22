@@ -16,22 +16,6 @@ import 'package:devfolio/sections/projects.dart' as prefix10;
 import 'package:devfolio/sections/services.dart' as prefix11;
 import 'package:devfolio/app.dart' as prefix12;
 
-/// Default [JasprOptions] for use with your jaspr project.
-///
-/// Use this to initialize jaspr **before** calling [runApp].
-///
-/// Example:
-/// ```dart
-/// import 'jaspr_options.dart';
-///
-/// void main() {
-///   Jaspr.initializeApp(
-///     options: defaultJasprOptions,
-///   );
-///
-///   runApp(...);
-/// }
-/// ```
 final defaultJasprOptions = JasprOptions(
   clients: {
     prefix12.App: ClientTarget<prefix12.App>('app'),
