@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "builds": [
-    { "src": "server.dart", "use": "@vercel/dart" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "server.dart" }
-  ]
-}
