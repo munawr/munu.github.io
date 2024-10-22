@@ -375,7 +375,7 @@ packages:
     source: hosted
     version: "0.15.1"
   jaspr_builder:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: jaspr_builder
       sha256: fe30e2d1c256145487ab405c5349ad59b54fb42276ab37dab9ba8e3951795b9c
