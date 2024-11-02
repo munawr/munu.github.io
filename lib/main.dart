@@ -26,7 +26,7 @@ void main() {
   runApp(Document(
     title: 'Munawar',
     /// Uncomment this line to deploy on github pages just in case your websit is like https://mhmzdev.github.io/devfolio-jaspr/
-    /// If its on the base repo, then you don't need to do this
+    /// If its  on the base repo, then you don't need to do this
 
     head: <Component>[
       link(
