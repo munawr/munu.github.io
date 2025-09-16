@@ -1,17 +1,19 @@
 {
     "basic": {
         "firstName": "Munawar",
-        "lastName": "Thottiyil",
-        "age": 26,
+        "lastName": "T",
+        "age": 27,
         "email": "devmunawar@gmail.com",
         "phone": "+91 9539834484",
-        "address": "Tirur, Kerala, India",
+        "address": "Bangalore, India",
         "photos": [
             "images/photos/bw.png",
             "images/photos/colored.png",
             "images/photos/mobile.png"
         ],
-        "resume": "https://drive.google.com/file/d/1PsX52Lswa4a52G4GZdrQsT6qKYt2CWff/view?usp=drivesdk"
+        "photos_note": "Replace the three photo paths above with your actual images (BW, colored, mobile).",
+        "resume": "https://drive.google.com/file/d/1g91P2S6nvJERjfzvpfUlGKciqQBCkxkg/view?usp=sharing",
+        "resume_note": "latest resume link."
     },
     "socials": [
         {
@@ -33,27 +35,53 @@
         {
             "icon": "fa-brands fa-instagram",
             "url": "https://www.instagram.com/mun.a.war/"
+        },
+        {
+            "icon": "fa-solid fa-globe",
+            "url": "https://munucodes.in"
         }
     ],
     "about": {
-        "heading": "I'm Muhammed Munawar, a Flutter Developer, UI/UX Designer, and Tech Enthusiast.",
-        "description": "I'm a self-thought/seasoned Flutter Developer with over 3 years of experience in building cross-platform applications for iOS, Android, and Web. I have a deep passion for UI/UX design and have worked on various technical projects, including AI-driven solutions and performance optimization. I focus on responsive design, state management, and seamless user experiences.",
+        "heading": "Flutter Developer",
+        "description": "Results-driven Flutter Developer with 4+ years building high-performance apps for iOS, Android, Web, and Desktop. Experienced across the full lifecycle: scalable architecture (Clean Architecture, MVVM), robust state management (Provider, Riverpod, BLoC), CI/CD automation, performance profiling, and TDD. Skilled with complex REST/GraphQL integrations, offline-first experiences (SQLite/Hive), and delivering production apps with secure auth, real-time features, and third‑party integrations.",
 
         "tech": [
-            "Flutter",
             "Dart",
-            "Firebase",
+            "Flutter SDK",
+            "Python",
+            "Kotlin",
+            "Swift",
+            "Clean Architecture",
+            "MVVM",
+            "Provider",
+            "GetX",
+            "BLoC/Cubit",
+            "Riverpod",
+            "GoRouter",
+            "SQLite (Floor)",
+            "Hive",
+            "SharedPreferences",
+            "REST APIs",
+            "Dio",
+            "http",
+            "Supabase",
+            "Firebase (Firestore, Auth, FCM, Crashlytics, Storage)",
+            "Remote Config",
+            "Unit/Widget Testing",
+            "Mockito",
+            "Git",
+            "GitHub Actions",
+            "Codemagic",
+            "Vercel",
+            "Performance profiling (Flutter DevTools)",
             "Xcode",
-            "TensorFlow Lite",
-            "Codemagic"
+            "Postman",
+            "Jira",
+            "iOS",
+            "Web"
         ],
-        "works": [
-            {
-                "image": "images/work/flutterIsl.png",
-                "url": "https://www.pmrinfos.com/",
-                "height": 50
-            }
-        ]
+        "tech_note": "Trim or reorder skills as needed.",
+        "works": []
     },
     "services": [
         {
@@ -78,6 +106,15 @@
         }
     ],
     "projects": [
+        {
+            "banner": "images/projects/anrml.png",
+            "icon": "images/projects/anmrl_icon.webp",
+            "title": "ANRML CMMS",
+            "description": "CMMS used to schedule periodic & conditional maintenances, facilitate workflow, generate maintenance history, and derive maintenance KPIs to improve manufacturing efficiency.",
+            "link": "https://play.google.com/store/apps/details?id=com.anrml&hl=en_IN",
+            "source_note": "Play Store listing",
+            "source_url": "https://play.google.com/store/apps/details?id=com.anrml&hl=en_IN"
+        },
         {
             "banner": "images/projects/vehicifyB.png",
             "icon": "images/projects/vehicify.png",
@@ -119,13 +156,33 @@
             "title": "Wise Learning App",
             "description": "Led a major UI overhaul to improve navigation and consistency, resulting in an engaging user experience.",
             "link": "https://play.google.com/store/apps/details?id=com.innerix.wiselearning&hl=en_IN&pli=1"
+        },
+        {
+            "banner": "images/projects/jspr_portfolio.png",
+            "icon": "images/projects/jspr_portfolio_icon.png",
+            "title": "Personal Portfolio (Jaspr)",
+            "description": "This site, built with Jaspr (Dart) for SSR/static output. Features responsive UI, sections driven by JSON, and CI/CD deployment.",
+            "link": "https://munu.github.io",
+            "banner_note": "Provide a 1200x630 banner image for the Jaspr project.",
+            "icon_note": "Provide a square icon (e.g., 256x256) for the Jaspr project."
+        },
+        
+        {
+            "banner": "images/projects/checklist.png",
+            "icon": "images/projects/anmrl_icon.webp",
+            "title": "Checklist App",
+            "description": "Production-ready checklist/inspections app with offline sync, role-based permissions, and real-time updates; built using Flutter with robust state management.",
+            "link": "",
+            "banner_note": "Provide a 1200x630 main image for Checklist App.",
+            "icon_note": "Provide a small square icon (e.g., 256x256) for Checklist App.",
+            "link_note": "Add public link or demo if available."
         }
     ],
     "contact": [
         {
             "icon": "fa-duotone fa-solid fa-house",
             "title": "Location",
-            "description": "Tirur, Kerala, India",
+            "description": "Banaglore, India",
             "action": "https://maps.app.goo.gl/1iPVo2nqXfTbyYhh6"
         },
         {

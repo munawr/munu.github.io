@@ -23,7 +23,7 @@ abstract class StaticAssets {
   /// Work Images
   static const String cui = 'images/work/cui.png';
   static const String dsc = 'images/work/dsc.png';
-  static const String flutterisl = 'images/work/flutterIsl.png';
+  static const String flutterisl = '';
   static const String st = 'images/work/st.png';
 
   /// Projects Images
