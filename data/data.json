@@ -7,7 +7,7 @@
         "phone": "+91 9539834484",
         "address": "Bangalore, India",
         "photos": [
-            "images/photos/bw.png",
+            "images/photos/black-white.png",
             "images/photos/colored.png",
             "images/photos/mobile.png"
         ],
@@ -107,8 +107,8 @@
     ],
     "projects": [
         {
-            "banner": "images/projects/anrml.png",
-            "icon": "images/projects/anmrl_icon.webp",
+            "banner": "images/projects/anmrl.png",
+            "icon": "images/projects/anmrlchecklist_icon.webp",
             "title": "ANRML CMMS",
             "description": "CMMS used to schedule periodic & conditional maintenances, facilitate workflow, generate maintenance history, and derive maintenance KPIs to improve manufacturing efficiency.",
             "link": "https://play.google.com/store/apps/details?id=com.anrml&hl=en_IN",
@@ -143,6 +143,17 @@
             "description": "An advanced restaurant management system migrated from Ionic to Flutter, with financial and operational analytics tailored to the Gulf food industry.",
             "link": "https://drive.google.com/drive/u/0/folders/19-RpKtffMsAHI3oWYViCSusde8NXN45O"
         },
+        
+        {
+            "banner": "images/projects/jspr_portfolio.png",
+            "icon": "images/app/1024.png",
+            "title": "Personal Portfolio (Jaspr)",
+            "description": "This site, built with Jaspr (Dart) for SSR/static output. Features responsive UI, sections driven by JSON, and CI/CD deployment.",
+            "link": "https://munu.github.io",
+            "banner_note": "Provide a 1200x630 banner image for the Jaspr project.",
+            "icon_note": "Provide a square icon (e.g., 256x256) for the Jaspr project."
+        },
+        
         {
             "banner": "images/projects/restoboardB.png",
             "icon": "images/projects/restoboard.png",
@@ -157,19 +168,10 @@
             "description": "Led a major UI overhaul to improve navigation and consistency, resulting in an engaging user experience.",
             "link": "https://play.google.com/store/apps/details?id=com.innerix.wiselearning&hl=en_IN&pli=1"
         },
-        {
-            "banner": "images/projects/jspr_portfolio.png",
-            "icon": "images/projects/jspr_portfolio_icon.png",
-            "title": "Personal Portfolio (Jaspr)",
-            "description": "This site, built with Jaspr (Dart) for SSR/static output. Features responsive UI, sections driven by JSON, and CI/CD deployment.",
-            "link": "https://munu.github.io",
-            "banner_note": "Provide a 1200x630 banner image for the Jaspr project.",
-            "icon_note": "Provide a square icon (e.g., 256x256) for the Jaspr project."
-        },
         
         {
             "banner": "images/projects/checklist.png",
-            "icon": "images/projects/anmrl_icon.webp",
+            "icon": "images/projects/anmrlchecklist_icon.webp",
             "title": "Checklist App",
             "description": "Production-ready checklist/inspections app with offline sync, role-based permissions, and real-time updates; built using Flutter with robust state management.",
             "link": "",
