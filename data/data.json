@@ -1,0 +1,201 @@
+{
+    "basic": {
+        "firstName": "Munawar",
+        "lastName": "T",
+        "age": 27,
+        "email": "devmunawar@gmail.com",
+        "phone": "+91 9539834484",
+        "address": "Bangalore, India",
+        "photos": [
+            "images/photos/bw.png",
+            "images/photos/colored.png",
+            "images/photos/mobile.png"
+        ],
+        "photos_note": "Replace the three photo paths above with your actual images (BW, colored, mobile).",
+        "resume": "https://drive.google.com/file/d/1g91P2S6nvJERjfzvpfUlGKciqQBCkxkg/view?usp=sharing",
+        "resume_note": "latest resume link."
+    },
+    "socials": [
+        {
+            "icon": "fa-brands fa-square-facebook",
+            "url": "https://www.facebook.com/munutm/"
+        },
+        {
+            "icon": "fa-brands fa-linkedin",
+            "url": "https://linkedin.com/in/devmunawar/"
+        },
+        {
+            "icon": "fa-brands fa-github",
+            "url": "https://github.com/munawr/"
+        },
+        {
+            "icon": "fa-brands fa-x-twitter",
+            "url": "https://x.com/munawr23/"
+        },
+        {
+            "icon": "fa-brands fa-instagram",
+            "url": "https://www.instagram.com/mun.a.war/"
+        },
+        {
+            "icon": "fa-solid fa-globe",
+            "url": "https://munucodes.in"
+        }
+    ],
+    "about": {
+        "heading": "Flutter Developer",
+        "description": "Results-driven Flutter Developer with 4+ years building high-performance apps for iOS, Android, Web, and Desktop. Experienced across the full lifecycle: scalable architecture (Clean Architecture, MVVM), robust state management (Provider, Riverpod, BLoC), CI/CD automation, performance profiling, and TDD. Skilled with complex REST/GraphQL integrations, offline-first experiences (SQLite/Hive), and delivering production apps with secure auth, real-time features, and third‑party integrations.",
+
+        "tech": [
+            "Dart",
+            "Flutter SDK",
+            "Python",
+            "Kotlin",
+            "Swift",
+            "Clean Architecture",
+            "MVVM",
+            "Provider",
+            "GetX",
+            "BLoC/Cubit",
+            "Riverpod",
+            "GoRouter",
+            "SQLite (Floor)",
+            "Hive",
+            "SharedPreferences",
+            "REST APIs",
+            "Dio",
+            "http",
+            "Supabase",
+            "Firebase (Firestore, Auth, FCM, Crashlytics, Storage)",
+            "Remote Config",
+            "Unit/Widget Testing",
+            "Mockito",
+            "Git",
+            "GitHub Actions",
+            "Codemagic",
+            "Vercel",
+            "Performance profiling (Flutter DevTools)",
+            "Xcode",
+            "Postman",
+            "Jira",
+            "iOS",
+            "Web"
+        ],
+        "tech_note": "Trim or reorder skills as needed.",
+        "works": []
+    },
+    "services": [
+        {
+            "icon": "images/services/app.png",
+            "title": "Mobile Development"
+        },
+        {
+            "icon": "images/services/ui.png",
+            "title": "Web Development"
+        },
+        {
+            "icon": "images/services/rapid.png",
+            "title": "Performance Optimization"
+        },
+        {
+            "icon": "images/services/ui.png",
+            "title": "UI/UX Design"
+        },
+        {
+            "icon": "images/services/open.png",
+            "title": "Open Source - GitHub"
+        }
+    ],
+    "projects": [
+        {
+            "banner": "images/projects/anrml.png",
+            "icon": "images/projects/anmrl_icon.webp",
+            "title": "ANRML CMMS",
+            "description": "CMMS used to schedule periodic & conditional maintenances, facilitate workflow, generate maintenance history, and derive maintenance KPIs to improve manufacturing efficiency.",
+            "link": "https://play.google.com/store/apps/details?id=com.anrml&hl=en_IN",
+            "source_note": "Play Store listing",
+            "source_url": "https://play.google.com/store/apps/details?id=com.anrml&hl=en_IN"
+        },
+        {
+            "banner": "images/projects/vehicifyB.png",
+            "icon": "images/projects/vehicify.png",
+            "title": "Vehicify",
+            "description": "A fleet and driver management system, optimized for iOS, Android, and Windows platforms, with Google Maps and real-time notifications.",
+            "link": "https://play.google.com/store/apps/developer?id=PMR+INFOS&hl=en_IN"
+        },
+        {
+            "banner": "images/projects/bricklyB.png",
+            "icon": "images/projects/brickly.png",
+            "title": "Brickly",
+            "description": "A comprehensive construction management and accounts automation system with real-time tracking and route optimization for construction vehicles.",
+            "link": "https://play.google.com/store/apps/details?id=com.pmr.bricklyApp&hl=en_IN"
+        },
+        {
+            "banner": "images/projects/vansalesB.png",
+            "icon": "images/projects/vansales.png",
+            "title": "Vansales Application System",
+            "description": "An ERP device app with seamless Bluetooth bill printing, optimized for stability and business operations using blue_thermal_printer.",
+            "link": "https://play.google.com/store/apps/details?id=com.vansalesapp.next&hl=en_IN"
+        },
+        {
+            "banner": "images/projects/gastroboardB.png",
+            "icon": "images/projects/gastroboard.png",
+            "title": "Gastroboard",
+            "description": "An advanced restaurant management system migrated from Ionic to Flutter, with financial and operational analytics tailored to the Gulf food industry.",
+            "link": "https://drive.google.com/drive/u/0/folders/19-RpKtffMsAHI3oWYViCSusde8NXN45O"
+        },
+        {
+            "banner": "images/projects/restoboardB.png",
+            "icon": "images/projects/restoboard.png",
+            "title": "Restoboard",
+            "description": "An advanced financial management dashboard built for real-time revenue, sales, and order tracking using Flutter.",
+            "link": "https://drive.google.com/drive/folders/1PULGhvqrf1Yi7qFuQwTpz3snbyAJGNMl"
+        },
+        {
+            "banner": "images/projects/wiselearningB.png",
+            "icon": "images/projects/wiselearning.png",
+            "title": "Wise Learning App",
+            "description": "Led a major UI overhaul to improve navigation and consistency, resulting in an engaging user experience.",
+            "link": "https://play.google.com/store/apps/details?id=com.innerix.wiselearning&hl=en_IN&pli=1"
+        },
+        {
+            "banner": "images/projects/jspr_portfolio.png",
+            "icon": "images/projects/jspr_portfolio_icon.png",
+            "title": "Personal Portfolio (Jaspr)",
+            "description": "This site, built with Jaspr (Dart) for SSR/static output. Features responsive UI, sections driven by JSON, and CI/CD deployment.",
+            "link": "https://munu.github.io",
+            "banner_note": "Provide a 1200x630 banner image for the Jaspr project.",
+            "icon_note": "Provide a square icon (e.g., 256x256) for the Jaspr project."
+        },
+        
+        {
+            "banner": "images/projects/checklist.png",
+            "icon": "images/projects/anmrl_icon.webp",
+            "title": "Checklist App",
+            "description": "Production-ready checklist/inspections app with offline sync, role-based permissions, and real-time updates; built using Flutter with robust state management.",
+            "link": "",
+            "banner_note": "Provide a 1200x630 main image for Checklist App.",
+            "icon_note": "Provide a small square icon (e.g., 256x256) for Checklist App.",
+            "link_note": "Add public link or demo if available."
+        }
+    ],
+    "contact": [
+        {
+            "icon": "fa-duotone fa-solid fa-house",
+            "title": "Location",
+            "description": "Tirur, Kerala, India",
+            "action": "https://maps.app.goo.gl/1iPVo2nqXfTbyYhh6"
+        },
+        {
+            "icon": "fa-duotone fa-solid fa-phone",
+            "title": "Phone",
+            "description": "+91 9539834484",
+            "action": "https://wa.me/919539834484"
+        },
+        {
+            "icon": "fa-duotone fa-solid fa-envelope",
+            "title": "Email",
+            "description": "devmunawar@gmail.com",
+            "action": "mailto:devmunawar@gmail.com"
+        }
+    ]
+}
