@@ -1,6 +1,19 @@
 {
   "version": 2,
-  "buildCommand": "dart pub get && dart run jaspr:build",
-  "outputDirectory": "build/jaspr",
-  "installCommand": "curl -fsSL https://get.dart.dev | sh && export PATH=\"$PATH:/vercel/.dart/bin\" && dart --version"
+  "builds": [
+    {
+      "src": "build/jaspr/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/build/jaspr/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/build/jaspr/$1"
+    }
+  ]
 }
