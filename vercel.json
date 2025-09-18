@@ -1,9 +1,19 @@
 {
   "version": 2,
   "builds": [
-    { "src": "lib/main.dart", "use": "@vercel/node" }
+    {
+      "src": "build/jaspr/**/*",
+      "use": "@vercel/static"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "lib/main.dart" }
+    {
+      "src": "/",
+      "dest": "/build/jaspr/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/build/jaspr/$1"
+    }
   ]
 }
