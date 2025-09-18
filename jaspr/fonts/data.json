@@ -63,7 +63,11 @@
                 "url": "https://developers.google.com/community/dsc",
                 "height": 30
             },
-            
+            {
+                "image": "images/work/flutterIsl.png",
+                "url": "https://meetup.com/flutter-islamabad",
+                "height": 60
+            },
             {
                 "image": "images/work/st.png",
                 "url": "https://www.sastaticket.pk/",

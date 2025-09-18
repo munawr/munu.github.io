@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "dart pub get && dart run jaspr:build",
+  "buildCommand": "chmod +x build.sh && ./build.sh",
   "outputDirectory": "build/jaspr",
-  "installCommand": "curl -fsSL https://get.dart.dev | sh && export PATH=\"$PATH:/vercel/.dart/bin\" && dart --version"
+  "installCommand": "echo 'Dependencies installed via build script'"
 }
