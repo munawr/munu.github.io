@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "build/jaspr/**/*",
-      "use": "@vercel/static"
-    }
-  ],
+  "buildCommand": "chmod +x build.sh && ./build.sh",
+  "outputDirectory": "build/jaspr",
   "routes": [
-    {
-      "src": "/",
-      "dest": "/build/jaspr/index.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/build/jaspr/$1"
-    }
-  ]
+    "use": "@vercel/static"
+  }
+],
+"routes": [
+  {
+    "src": "/",
+    "dest": "/build/jaspr/index.html"
+  },
+  {
+    "src": "/(.*)",
+    "dest": "/build/jaspr/$1"
+  }
+]
 }
