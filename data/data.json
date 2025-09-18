@@ -11,7 +11,9 @@
             "images/photos/colored.png",
             "images/photos/mobile.png"
         ],
-        "resume": "https://drive.google.com/file/d/1g91P2S6nvJERjfzvpfUlGKciqQBCkxkg/view?usp=sharing"
+        "photos_note": "Replace the three photo paths above with your actual images (BW, colored, mobile).",
+        "resume": "https://drive.google.com/file/d/1g91P2S6nvJERjfzvpfUlGKciqQBCkxkg/view?usp=sharing",
+        "resume_note": "latest resume link."
     },
     "socials": [
         {
@@ -77,6 +79,7 @@
             "iOS",
             "Web"
         ],
+        "tech_note": "Trim or reorder skills as needed.",
         "works": []
     },
     "services": [
@@ -103,11 +106,12 @@
     ],
     "projects": [
         {
-            "banner": "images/projects/anmrl.png",
+            "banner": "images/projects/anmrlB.png",
             "icon": "images/projects/anmrlchecklist_icon.webp",
             "title": "ANRML CMMS",
             "description": "CMMS used to schedule periodic & conditional maintenances, facilitate workflow, generate maintenance history, and derive maintenance KPIs to improve manufacturing efficiency.",
             "link": "https://play.google.com/store/apps/details?id=com.anrml&hl=en_IN",
+            "source_note": "Play Store listing",
             "source_url": "https://play.google.com/store/apps/details?id=com.anrml&hl=en_IN"
         },
         {
@@ -139,11 +143,13 @@
             "link": "https://drive.google.com/drive/u/0/folders/19-RpKtffMsAHI3oWYViCSusde8NXN45O"
         },
         {
-            "banner": "images/projects/port.png",
+            "banner": "images/projects/portB.png",
             "icon": "images/app/1024.png",
             "title": "Personal Portfolio (Jaspr)",
             "description": "This site, built with Jaspr (Dart) for SSR/static output. Features responsive UI, sections driven by JSON, and CI/CD deployment.",
-            "link": "https://munu.github.io"
+            "link": "https://munu.github.io",
+            "banner_note": "Provide a 1200x630 banner image for the Jaspr project.",
+            "icon_note": "Provide a square icon (e.g., 256x256) for the Jaspr project."
         },
         {
             "banner": "images/projects/restoboardB.png",
@@ -164,7 +170,10 @@
             "icon": "images/projects/anmrlchecklist_icon.webp",
             "title": "Checklist App",
             "description": "Production-ready checklist/inspections app with offline sync, role-based permissions, and real-time updates; built using Flutter with robust state management.",
-            "link": "https://github.com/munawr"
+            "link": "",
+            "banner_note": "Provide a 1200x630 main image for Checklist App.",
+            "icon_note": "Provide a small square icon (e.g., 256x256) for Checklist App.",
+            "link_note": "Add public link or demo if available."
         }
     ],
     "contact": [

@@ -7,7 +7,7 @@
         "phone": "+91 9539834484",
         "address": "Bangalore, India",
         "photos": [
-            "images/photos/bw.png",
+            "images/photos/black-white.png",
             "images/photos/colored.png",
             "images/photos/mobile.png"
         ],
@@ -107,8 +107,8 @@
     ],
     "projects": [
         {
-            "banner": "images/projects/anrml.png",
-            "icon": "images/projects/anmrl_icon.webp",
+            "banner": "images/projects/anmrlB.png",
+            "icon": "images/projects/anmrlchecklist_icon.webp",
             "title": "ANRML CMMS",
             "description": "CMMS used to schedule periodic & conditional maintenances, facilitate workflow, generate maintenance history, and derive maintenance KPIs to improve manufacturing efficiency.",
             "link": "https://play.google.com/store/apps/details?id=com.anrml&hl=en_IN",
@@ -158,8 +158,8 @@
             "link": "https://play.google.com/store/apps/details?id=com.innerix.wiselearning&hl=en_IN&pli=1"
         },
         {
-            "banner": "images/projects/jspr_portfolio.png",
-            "icon": "images/projects/jspr_portfolio_icon.png",
+            "banner": "images/projects/portB.png",
+            "icon": "images/app/1024.png",
             "title": "Personal Portfolio (Jaspr)",
             "description": "This site, built with Jaspr (Dart) for SSR/static output. Features responsive UI, sections driven by JSON, and CI/CD deployment.",
             "link": "https://munu.github.io",
@@ -169,7 +169,7 @@
         
         {
             "banner": "images/projects/checklist.png",
-            "icon": "images/projects/anmrl_icon.webp",
+            "icon": "images/projects/anmrlchecklist_icon.webp",
             "title": "Checklist App",
             "description": "Production-ready checklist/inspections app with offline sync, role-based permissions, and real-time updates; built using Flutter with robust state management.",
             "link": "",
