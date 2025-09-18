@@ -1,19 +1,13 @@
 #!/bin/bash
 
-# Install Dart SDK without sudo
-export DART_SDK_HOME="$HOME/dart-sdk"
-export PATH="$DART_SDK_HOME/bin:$PATH"
+# The vercel-dart builder already installed Dart.
+# Now, we just need to activate Jaspr and build the project.
 
-# Download and install Dart SDK
-wget -O dart-sdk.zip https://storage.googleapis.com/dart-archive/channels/stable/release/latest/sdk/dartsdk-linux-x64-release.zip
-unzip -q dart-sdk.zip -d $HOME
-rm dart-sdk.zip
-
-# Verify Dart installation
-dart --version
-
-# Run the Jaspr build
-dart pub get
+echo "Activating Jaspr CLI..."
 dart pub global activate jaspr_cli
-export PATH="$HOME/.pub-cache/bin:$PATH"
+
+# Add the pub cache to the system's PATH so the 'jaspr' command is found
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+echo "Building the Jaspr project..."
 jaspr build
