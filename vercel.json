@@ -1,6 +1,9 @@
 {
   "version": 2,
-  "buildCommand": "chmod +x build.sh && ./build.sh",
-  "outputDirectory": "build/jaspr",
-  "installCommand": "echo 'Dependencies installed via build script'"
+  "builds": [
+    { "src": "lib/main.dart", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "lib/main.dart" }
+  ]
 }
