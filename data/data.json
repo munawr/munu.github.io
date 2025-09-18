@@ -138,7 +138,6 @@
             "description": "An advanced restaurant management system migrated from Ionic to Flutter, with financial and operational analytics tailored to the Gulf food industry.",
             "link": "https://drive.google.com/drive/u/0/folders/19-RpKtffMsAHI3oWYViCSusde8NXN45O"
         },
-        
         {
             "banner": "images/projects/port.png",
             "icon": "images/app/1024.png",
@@ -146,7 +145,6 @@
             "description": "This site, built with Jaspr (Dart) for SSR/static output. Features responsive UI, sections driven by JSON, and CI/CD deployment.",
             "link": "https://munu.github.io"
         },
-        
         {
             "banner": "images/projects/restoboardB.png",
             "icon": "images/projects/restoboard.png",
@@ -161,7 +159,6 @@
             "description": "Led a major UI overhaul to improve navigation and consistency, resulting in an engaging user experience.",
             "link": "https://play.google.com/store/apps/details?id=com.innerix.wiselearning&hl=en_IN&pli=1"
         },
-        
         {
             "banner": "images/projects/checklist.png",
             "icon": "images/projects/anmrlchecklist_icon.webp",
