@@ -2,5 +2,5 @@
   "version": 2,
   "buildCommand": "chmod +x build.sh && ./build.sh",
   "outputDirectory": "build/jaspr",
-  "installCommand": "echo 'Using Dart from Vercel environment'"
+  "installCommand": "echo 'Installing dependencies'"
 }
