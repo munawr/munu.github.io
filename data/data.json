@@ -145,7 +145,7 @@
         },
         
         {
-            "banner": "images/projects/jspr_portfolio.png",
+            "banner": "images/projects/port.png",
             "icon": "images/app/1024.png",
             "title": "Personal Portfolio (Jaspr)",
             "description": "This site, built with Jaspr (Dart) for SSR/static output. Features responsive UI, sections driven by JSON, and CI/CD deployment.",
